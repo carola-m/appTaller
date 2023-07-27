@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.b-body__index{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin:20px;
+}
+.b-index__boton,.allcoches, .addcoche, .allservicios, .deletecoche{
+    width:200px;
+    height: 50px;
+    background-color: rgb(192, 144, 236);
+
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: transparent;
+
+}
+.b-index__boton:hover, .allcoches:hover, .addcoche:hover, .allservicios:hover{
+    background-color: rgb(167, 96, 233);
+}
+.b-form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    gap:10px
+    
+}
+.b-form span{
+    font-size: 10px;
+    color: grey;
+}
+.b-form__email ,.b-form__passwd{
+    height: 25px;
+    
+}
+.b-form__submit{
+    height: 30px;
+    width: 50%;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.b-header{
+    
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.b-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 0px;
+    gap:10px
+}
+.b-nav__p{
+    margin-left: 20px;
+    
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+    border:2px solid gray;
+    margin-left: 10px;
+}
+.addform{
+    width: 90%;
+    
+}
+.b-loginform{
+    display: flex;
+    flex-direction: column;
+    border:1px solid black;
+}
+.b-registerform{
+    display: flex;
+    flex-direction: column;
+    border:1px solid black;
+}
+.b-registerform--hidden{
+    display: none;
+}
+#addform{
+    width: 60%;
+    margin: 50px 0px 0px 20px;
+    display: flex;
+    flex-direction: column;
+}
+#addform span{
+    width: 10%;
+}
+#addform input{
+    height: 25px;
+}
+.cochecreado{
+    margin-left: 20px;
+}
+select{
+    margin: 20px;
+}
+h3, h4{
+    margin: 20px;
+}
+.borrarcoche{
+    height: 35px;
+    width: 100px;
+    font-weight: 500;
+    border-radius: 15px;
+    margin: 5px;
+}
+.borrarcoche:hover{
+    background-color: rgb(241, 43, 43);
+}
+.container{
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%; */
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+    grid-gap: 10px;
+    margin:20px
+
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    border-radius: 10px;
+    padding:10px;
+    margin: 10px;
+   
+}
+.item img{
+    width: 100%;
+    height:150px;
+}
+.item span{
+    font-size: 16px;
+}
+   
